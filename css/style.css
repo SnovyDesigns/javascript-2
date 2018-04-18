@@ -1,0 +1,8 @@
+button {
+	display: block;
+	padding: 10px 15px;
+	background-color: #1e90ff;
+	color: #fff;
+	margin-bottom: 15px;
+	font-size: 15px;
+}
