@@ -1,0 +1,17 @@
+button {
+	padding: 10px 15px;
+	font-size: 15px;
+	color: #fff;
+	border-radius: 8px;
+	text-transform: uppercase;
+	display: block;
+	margin-bottom: 15px;
+}
+
+#addElem {
+	background-color: #2ed573;
+}
+
+#remElem {
+	background-color: #ff4757;
+}
