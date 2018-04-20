@@ -1,14 +1,29 @@
 function drawTree (levels) {
 	
 	for (var i = 0; i < levels; i++) {
-		
-		var star = '';
+
+		var star = '',
+			space = [];
 
 		for (var j = 0; j <= i; j++) {
-			star += '*';
+
+			if (j === 0) {
+				star += '*';
+			} else {
+				star += '**';
+			}
+
 		}
 
-		console.log(star);
+		for (var k = 0; k <= i; k++) {
+
+			space.length = levels - k;
+
+		}
+
+		var joinSpace = space.join(' ');
+
+		console.log(joinSpace+star);
 
 	}
 
