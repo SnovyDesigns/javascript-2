@@ -1,0 +1,11 @@
+.container {
+	padding: 15px 0;
+}
+
+.winner {
+	margin: 0 0 20px 0;
+}
+
+.winner span {
+	color: #44bd32;
+}
